@@ -34,7 +34,7 @@ struct List {
     }
 
     /*
-        empty = testa se a lista está vazia ou não
+        empty = testa se a lista estÃ¡ vazia ou nÃ£o
         size = retorna o tamanho da lista
         pushFront = insere no inicio
         pushBack = insere no final
@@ -220,8 +220,6 @@ struct List {
     }
 
     void inserirLista() {
-        Node *posterior->prox = cabeca;
-            posterior->prox = cauda;
         for (int i = 0; i == size; i++) {
             Node *posterior->prox = cabeca;
             posterior->prox = cauda;
